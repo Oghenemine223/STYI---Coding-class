@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gameimg {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overflow-x: hidden; /* Updated property to hide the scrollbar */
+}
+
+.gameimg img {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+
